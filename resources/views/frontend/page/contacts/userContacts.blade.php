@@ -1,4 +1,5 @@
 @extends("frontend.layout.base")
+@section('title_page', "User contact")
 @section('content')
     @if(Session::has('status'))
         <div class="alert alert-success" role="alert">

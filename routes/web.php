@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome1');
-});
 Route::middleware('auth')->group(function () {
     Route::get('/', [ContactBookController::class, 'publicContact'])->name('home');
     Route::post('add-contact', [ContactBookController::class, 'addContactToUser'])->name('addContact');

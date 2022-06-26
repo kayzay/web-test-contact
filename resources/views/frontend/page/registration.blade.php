@@ -1,4 +1,5 @@
 @extends("frontend.layout.empty")
+@section('title_page', "Registration")
 @section('content')
     <div class="register-box">
         <div class="card card-outline card-primary">

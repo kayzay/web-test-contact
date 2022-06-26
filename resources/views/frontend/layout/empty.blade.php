@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>@yield("title_page")</title>
     <link href="{{asset("css/bootstrap.css")}}"  rel="stylesheet">
     <style>
         body, html {

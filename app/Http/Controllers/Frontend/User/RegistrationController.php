@@ -10,6 +10,10 @@ use App\Models\UserAuth\User;
 
 class RegistrationController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('guest:web');
+    }
     public function registration()
     {
         return view('frontend.page.registration');

@@ -1,4 +1,5 @@
 @extends("frontend.layout.empty")
+@section('title_page', "Login")
 @section('content')
     <div class="login-box">
         <!-- /.login-logo -->
