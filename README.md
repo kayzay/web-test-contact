@@ -11,7 +11,7 @@
 - download repository
 - run command on current dir project `` composer install ``
 - if dont generate file ``.env`` you can copy and rename ``.env.example`` and run command ``php artisan key:generate``
-- on file ``.evn`` found key ``DB_DATABASE`` and set database name (data base mast be created)
+- on file ``.evn`` found keys ``DB_DATABASE, DB_USERNAME, DB_PASSWORD`` and set database name (data base mast be created), your user and password
 - run migration ... command ``php artisan migrate``
 - run seeders ... command ``php artisan db:seed``
 ## Task
