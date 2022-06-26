@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="{{asset("css/bootstrap.css")}}"  rel="stylesheet">
+    <style>
+        body, html {
+            background-color: #34515E;
+            height: 100vh;
+        }
+        .login-box, .register-box{width: 360px;}
+    </style>
+    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">--}}
+</head>
+<body class="d-flex flex-column justify-content-center align-items-center">
+<div class="container d-flex justify-content-center" >
+    @yield("content")
+</div>
+<script src="{{asset("js/bootstrap.js")}}"></script>
+{{--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>--}}
+</body>
+</html>
